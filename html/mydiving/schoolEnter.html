@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="trimview" content="1.0.0">
+    <title>学时录入</title>
+    <link type="text/css" rel="stylesheet" href="../../res/css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="../../res/css/mydiving/schoolEnter.css"/>
+    <link type="text/css" rel="stylesheet" href="../../res/css/page/page.css"/>
+</head>
+<body>
+<!--头部-->
+<header>
+    <header>
+        <div class="h_left"><img src="../../res/img/back.png"/></div>
+        <div class="h_center">学时录入</div>
+        <div class="h_right"><span>新增</span></div>
+    </header>
+</header>
+<!--内容部分-->
+<section class="main_login">
+    <ul class="se_title">
+        <li class="hover"><span></span><span>科目一</span></li>
+        <li><span></span><span>科目二</span></li>
+        <li><span></span><span>科目三</span></li>
+
+    </ul>
+    <div class="se_total">
+        <span>科目<em>一</em>总学时：<em>0</em>小时</span>
+        <span>已累计学时：<em>0</em>小时</span>
+    </div>
+    <div class="se_head" style="display: block">
+        <span>日期</span>
+        <span>科目</span>
+        <span>名称</span>
+        <span>学时</span>
+        <span>教练</span>
+    </div>
+
+    <div id="iScroll" class="se_main">
+        <div id='iScrollInner'>
+            <!--<div id="pullDown">
+                <span class="pullDownIcon"></span><span class="pullDownLabel">下拉刷新...</span>
+            </div>-->
+            <ul class="se_ul" style="display: block">
+                <!--<li class="se_head">
+                    <span>2015/3/18</span>
+                    <span>一</span>
+                    <span>理论</span>
+                    <span>2</span>
+                    <span>凹凸慢(ID:015300)</span>
+                </li>-->
+            </ul>
+            <div id="pullUp" style="display: none">
+                <span class="pullUpIcon"></span>
+                <span class="pullUpLabel">上拉刷新</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="se_no" style="display: none">
+        <span>科目<em>四</em>还未开始哦！</span>
+    </div>
+</section>
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+<script type="text/javascript" src="../../js/public/common.js"></script>
+<script type="text/javascript" src="../../js/public/iscroll.js"></script>
+<!--<script type="text/javascript" src="../../js/public/page/page.js"></script>-->
+<script type="text/javascript" src="../../js/mydiving/schoolEnter.js"></script>
+</body>
+</html>

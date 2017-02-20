@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="trimview" content="1.0.0">
+		<title>首页</title>
+		<link type="text/css" rel="stylesheet" href="../../res/css/common.css" />
+		<link type="text/css" rel="stylesheet" href="../../res/css/home/home.css" />
+	</head>
+
+	<body>
+		<!--头部-->
+		<header>
+			<header>
+				<div class="h_left"><img id="img_head" src="../../res/img/title-user.png"/></div>
+				<div class="h_center">首页
+                	<!--
+					<span class="h_Search">
+						<i></i>
+						<input type="text" placeholder="大家都在搜“学车贵不贵”" />
+					</span>
+                    -->
+				</div>
+				<div class="h_right" id="city"></div>
+			</header>
+		</header>
+		<!--内容部分-->
+		<section class="main_home">
+            <div class="ad_wrap">
+                <div id="adWrap">
+                    <ul id="adWrap_ul">
+                    </ul>
+                </div>
+                <div class="ad_btn_wrap">
+                </div>
+            </div>
+
+            <div class="swipe">
+                <ul id="slider">
+                    <li><img style="width: 100%; height:180px;" src="../../res/img/run1.png" alt="" /></li>
+                    <li><img style="width: 100%; height:180px;" src="../../res/img/mydriving_logo1.png" alt="" /></li>
+                    <li><img style="width: 100%; height:180px;" src="../../res/img/mydriving_logo2.png" alt="" /></li>
+                    <li><img style="width: 100%; height:180px;" src="../../res/img/mycollect_2.png" alt="" /></li>
+                </ul>
+                <div id="pagenavi">
+                    <a href="javascript:void(0);" class="active"></a>
+                    <a href="javascript:void(0);"></a>
+                    <a href="javascript:void(0);"></a>
+                    <a href="javascript:void(0);"></a>
+                </div>
+            </div>
+			<article class="weather-conditions">
+				<ul class="weather-lst">
+					<li class="Temperature">
+						<span class="Temperature-number">14</span>
+						<!-- <span class="Temperature-desc"> 
+							<i></i>
+							<i></i>
+						</span>-->
+						<span class="Temperature-gap">17/4°C</span>
+					</li>
+					<li class="MP-desc">
+						<span class="mp-value">PM2.5</span>
+						<span class="mp-state">65</span>
+					</li>
+					<li class="Daily-desc">
+						<span id="Dailyzwx">紫外线&nbsp;中等</span>
+						<span id="Dailfl">北风&nbsp;3级</span>
+						<span id="Dailwd">温度&nbsp;16</span>
+					</li>
+					<li class="Forum-entrance">
+						<i></i>
+					</li>
+				</ul>
+			</article>
+            <article class="hll_info">
+                <span>资讯列表</span><span id="hll_more">更多</span>
+            </article>
+			<article class="Information-lst">
+				<ul class="lst">
+					<li>
+						<div>
+							<img src="../../res/img/dome1.png" />
+						</div>
+						<div>
+							<span class="title1">捷报！春季报名已破500！</span>
+							<span class="Details">学员在每一季度800名前报名 学车东岳赠送科目一...</span>
+						</div>
+						<div>
+							<span class="look-Details">详情</span>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="../../res/img/dome1.png" />
+						</div>
+						<div>
+							<span class="title1">捷报！春季报名已破500！</span>
+							<span class="Details">学员在每一季度800名前报名 学车东岳赠送科目一...</span>
+						</div>
+						<div>
+							<span class="look-Details">详情</span>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="../../res/img/dome1.png" />
+						</div>
+						<div>
+							<span class="title1">捷报！春季报名已破500！</span>
+							<span class="Details">学员在每一季度800名前报名 学车东岳赠送科目一...</span>
+						</div>
+						<div>
+							<span class="look-Details">详情</span>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="../../res/img/dome1.png" />
+						</div>
+						<div>
+							<span class="title1">捷报！春季报名已破500！</span>
+							<span class="Details">学员在每一季度800名前报名 学车东岳赠送科目一...</span>
+						</div>
+						<div>
+							<span class="look-Details">详情</span>
+						</div>
+					</li>
+				</ul>
+			</article>
+		</section>
+        <footer>
+            <nav class="hover">
+                <span class='btn1'></span>
+                <span>首页</span>
+            </nav>
+            <nav>
+                <span class='btn2'></span>
+                <span>我要学车</span>
+            </nav>
+            <nav>
+                <span class='btn3'></span>
+                <span>我的驾校</span>
+            </nav>
+            <nav>
+                <span class='btn4'> </span>
+                <span>驾考专家</span>
+            </nav>
+            <nav>
+                <span class='btn5'> </span>
+                <span>百宝箱</span>
+            </nav>
+        </footer>
+
+        <script type="text/javascript" src="../../js/public/jquery.js"></script>
+        <script type="text/javascript" src="../../js/public/common.js"></script>
+        <script type="text/javascript" src="../../js/public/tween.js"></script>
+        <script src="../../js/home/touchScroll.js"></script>
+        <script src="../../js/home/touchslider.dev.js"></script>
+        <script src="../../js/home/home_ad.js"></script>
+		<script type="text/javascript" src="../../js/home/home.js"></script>
+        <script type="text/javascript" src="../../js/public/cordova.js"></script>
+
+	</body>
+
+</html>

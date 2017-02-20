@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="trimview" content="1.0.0">
+    <title>新增记录</title>
+    <link type="text/css" rel="stylesheet" href="../../res/css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="../../res/css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="../../res/css/mydiving/addingRecord.css"/>
+
+</head>
+<body>
+<!--头部-->
+<header>
+    <header>
+        <div class="h_left"><img src="../../res/img/back.png"/></div>
+        <div class="h_center">新增记录</div>
+        <div class="h_right"></div>
+    </header>
+</header>
+<!--内容部分-->
+<section class="main_login" id='iScroll'>
+    <div id="scrollInner">
+        <div class="ar_one">
+            <span>学员姓名：<em>小怪兽</em></span>
+            <span>学员编号：<em>CS12121212</em></span>
+        </div>
+        <div class="ar_two">
+            <div>
+                <div>
+                    <span>科目</span>
+                    <span></span>
+                </div>
+                <div id="ar_kemu">
+                    <span class="aa">科目一</span>
+                    <span>科目二</span>
+                    <span>科目三</span>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <span>类型</span>
+                    <span></span>
+                </div>
+                <div id="ar_lixing">
+                    <span class="aa">理论</span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="ar_thr">
+            <span>教练</span>
+            <span>请选择教练</span>
+            <!--<input type="text" placeholder="请输入教练编号">-->
+            <!--<span>王大宝</span>-->
+            <span><img src="../../res/img/com_go.png"></span>
+        </div>
+        <div class="ar_for">
+            <span>总累计学习时间</span>
+            <input type="hidden" id="curr_time" value=""/>
+            <input value="00:00" class="" readonly name="appTime" placeholder="请填写总累计学习时间" id="appTime" type="text">
+            <!--<input id="ar_studytime" type="text" placeholder="请填写总累计学习时间">-->
+        </div>
+
+        <div class="ar_fiv">
+            <input type="hidden" id="ar_study_sytotal" value="">
+            <span class="ar_fiv_datemin">上次累计学习时间：<em id="ar_study_1">0</em></span>
+            <span>本次累计学习时间：<em id="ar_study_2">0</em></span>
+            <span>剩余学习时间：<em id="ar_study_3">0</em></span>
+        </div>
+        <div class="ar_six"><span>请对本次服务进行评价</span></div>
+        <div class="ar_sev">
+            <div>
+                <span>进行评价</span>
+                <img id="ar_pj_hp" src="../../res/img/eva_sel_yes.png"/><span class="hover">好评</span>
+                <img id="ar_pj_zp" src="../../res/img/eva_sel_no.png"/><span class="grey">中评</span>
+                <img id="ar_pj_cp" src="../../res/img/eva_sel_no.png"/><span class="grey">差评</span>
+            </div>
+            <div>
+                <img src="../../res/img/eva_xing_yes.png"/>
+                <img src="../../res/img/eva_xing_yes.png"/>
+                <img src="../../res/img/eva_xing_yes.png"/>
+                <img src="../../res/img/eva_xing_yes.png"/>
+                <img src="../../res/img/eva_xing_yes.png"/>
+            </div>
+            <div><textarea placeholder="请输入您的评论内容（25字之内）"></textarea></div>
+        </div>
+        <div class="ar_eig">
+            <button>提&nbsp;&nbsp;&nbsp;&nbsp;交</button>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+<script type="text/javascript" src="../../js/public/common.js"></script>
+<script type="text/javascript" src="../../js/public/iscroll.js"></script>
+<script type="text/javascript" src="../../js/public/time_scroll.js"></script>
+<script type="text/javascript" src="../../js/mydiving/addingRecord.js"></script>
+</body>
+</html>

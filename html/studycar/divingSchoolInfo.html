@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="trimview" content="1.0.0">
+    <title>驾校信息</title>
+    <link type="text/css" rel="stylesheet" href="../../res/css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="../../res/css/studycar/divingSchoolInfo.css"/>
+</head>
+<body>
+<!--头部-->
+<header>
+    <header>
+        <div class="h_left" id="backBtn"><img src="../../res/img/back.png"/></div>
+        <div class="h_center">驾校信息</div>
+        <div class="h_right"></div>
+    </header>
+</header>
+<!--内容部分-->
+<section class="main_login" id='iScroll'>
+    <div id="scrollInner">
+        <div class="ds_one"><img src="../../res/img/mydriving_logo1.png"/></div>
+        <div class="ds_two">
+            <div><span>基本信息</span></div>
+            <div>
+            	<input type="hidden" id="diving_id" value=""/>
+                <p><span> 驾校名称：</span><span id="diving_name"><!--东岳驾校--></span></p>
+
+                <p><span>驾校电话：</span><span id="diving_tel"><!--010-58552255--></span></p>
+
+                <p><span>驾校地址：</span><span id="diving_adress"><!--北京市海淀区上地环岛上地桥东安宁庄西三条东岳驾校训练场--></span></p>
+
+                <p><span>驾校介绍：</span>
+                    <span id="diving_content"><!--一日，我与上帝出行。路过一条河时，我看到水里有一个人在挣扎，我指着那人问：“上帝，为什么你不去救那个人，难道他没有向你祈祷吗？”上帝回答：“不，他向我祈祷了两次，但我也救了他两次——第一次我让一根圆木从他身边漂过，他没有去抓。第二次我让一个人划着竹筏从他身边经过，他又不肯去抓那个向他得出的手。你让我怎样去救他，难道非得我亲手去把他拉上来？”我哑口无言。--></span>
+                </p>
+            </div>
+        </div>
+        <div class="ds_thr margintop10">
+            <div><span>班制说明</span></div>
+            <div id="ds_info">
+                <div>
+                    <!-- <span>A - 速成</span><span>B - 速成</span><span>C - 速成</span> -->
+                </div>
+                <div>
+                    <!--  <span>A - 普通</span><span>B - 普通</span><span>C - 普通</span> -->
+                </div>
+               <!-- <div><span id="7">C1-普桑-贵宾-上午</span><span id="8">C1-奥迪-普通-待定</span><span id="9">C1-宝马-外地-正常</span><span
+                        id="22">B-普桑-贵宾-上午</span><span id="23">B-奥迪-普通-待定</span><span id="24">B-宝马-外地-正常</span>
+                </div>-->
+            </div>
+            <div class="ds_fou margintop10">
+                <div id="ds_eva"><span>评价列表</span><span>更多</span></div>
+                <ul>
+                  <!--  <li>
+                        <div><img src="../../res/img/person_head1.png"/><span>徐大帅</span><span>2015/03/07</span></div>
+                        <div>
+                            <span>评分：</span>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_no.png"/>
+                        </div>
+                        <div><span>评价内容：</span><span>凹凸慢打怪兽能力比较强，以后每打一个怪兽，加工资一毛。</span></div>
+                    </li>
+                    <li>
+                        <div><img src="../../res/img/person_head1.png"/><span>徐大帅</span><span>2015/03/07</span></div>
+                        <div>
+                            <span>评分：</span>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_no.png"/>
+                        </div>
+                        <div><span>评价内容：</span><span>凹凸慢打怪兽能力比较强，以后每打一个怪兽，加工资一毛。</span></div>
+                    </li>
+                    <li>
+                        <div><img src="../../res/img/person_head1.png"/><span>徐大帅</span><span>2015/03/07</span></div>
+                        <div>
+                            <span>评分：</span>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_yes.png"/>
+                            <img src="../../res/img/eva_xing_no.png"/>
+                        </div>
+                        <div><span>评价内容：</span><span>凹凸慢打怪兽能力比较强，以后每打一个怪兽，加工资一毛。</span></div>
+                    </li>  -->
+                </ul>
+            </div>
+            <!--<div class="ds_fif">
+                <button id="ds_pingjia">评&nbsp;&nbsp;&nbsp;&nbsp;价</button>
+            </div>-->
+           <div class="ds_fif">
+                <button id="ds_baoming">我要报名</button>
+            </div>
+        </div>
+</section>
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+<script type="text/javascript" src="../../js/public/common.js"></script>
+<script type="text/javascript" src="../../js/public/iscroll.js"></script>
+<script type="text/javascript" src="../../js/studycar/divingSchoolInfo.js"></script>
+</body>
+</html>

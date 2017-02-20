@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="trimview" content="1.0.0">
+    <title>我要约车</title>
+    <link type="text/css" rel="stylesheet" href="../../res/css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="../../res/css/mydiving/Training.css"/>
+    <link href="../../res/css/date/mobiscroll.animation.css" rel="stylesheet" type="text/css"/>
+    <link href="../../res/css/date/mobiscroll.frame.css" rel="stylesheet" type="text/css"/>
+    <link href="../../res/css/date/mobiscroll.scroller.css" rel="stylesheet" type="text/css"/>
+    <link href="../../res/css/date/date.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+<body>
+<!--头部-->
+<header>
+    <header>
+        <div class="h_left" id="backBtn"><img src="../../res/img/back.png"/></div>
+        <div class="h_center">我要约车</div>
+        <div class="h_right"></div>
+    </header>
+</header>
+<!--内容部分-->
+<section class="main_login">
+    <div class="t_title">
+        <div><span class="t_span_yes">我要约车</span><span class="">查看已约</span></div>
+    </div>
+    <div class="t_s_one" style="display: block">
+        <div><span>请选择已约科目</span></div>
+        <div>
+            <div class="btn_s">
+                <button class="t_b_yes">科目二</button>
+            </div>
+            <div class="btn_s">
+                <button>科目三</button>
+            </div>
+        </div>
+    </div>
+    <ul class="t_s_one_next" style="display: none">
+        <!--<li>
+            <div><span>2015-4-18</span><span>5:00-6:00</span></div>
+            <div><span><em>8</em>人可预约</span></div>
+            <div><button class="t_s_kan">查看</button></div>
+        </li>
+        <li>
+            <div><span>2015-4-18</span><span>7:00-8:00</span></div>
+            <div><span>6人可预约</span></div>
+            <div><button>查看</button></div>
+        </li>
+        <li>
+            <div><span>2015-4-18</span><span>9:00-10:00</span></div>
+            <div><span>2人可预约</span></div>
+            <div><button>查看</button></div>
+        </li>
+        <li>
+            <div><span>2015-4-18</span><span>11:00-12:00</span></div>
+            <div><span>7人可预约</span></div>
+            <div><button>查看</button></div>
+        </li>
+        <li>
+            <div><span>2015-4-18</span><span>9:00-10:00</span></div>
+            <div><span>11人可预约</span></div>
+            <div><button>查看</button></div>
+        </li>-->
+    </ul>
+    <ul class="t_s_one_next2" style="display: none">
+        <!--<li>
+            <div><img src="../../res/img/mycollect_4.png"/></div>
+            <div><span>京D21313</span><span>凹凸慢</span></div>
+            <div><button>预约</button></div>
+        </li>
+        <li>
+            <div><img src="../../res/img/mycollect_4.png"/></div>
+            <div><span>京D21313</span><span>李明哥</span></div>
+            <div><button>预约</button></div>
+        </li>
+        <li>
+            <div><img src="../../res/img/mycollect_4.png"/></div>
+            <div><span>京D21313</span><span>大张王</span></div>
+            <div><button>预约</button></div>
+        </li>
+        <li>
+            <div><img src="../../res/img/mycollect_4.png"/></div>
+            <div><span>京D21313</span><span>慢特慢</span></div>
+            <div><button>预约</button></div>
+        </li>
+        <li>
+            <div><img src="../../res/img/mycollect_4.png"/></div>
+            <div><span>京D21313</span><span>小怪兽</span></div>
+            <div><button>预约</button></div>
+        </li>-->
+    </ul>
+    <div class="h1">
+        <p>请选择预约时间</p>
+    </div>
+    <div class="content">
+        <div id="bottoms">
+            <select name="display" id="display" class="settings">
+                <option value="bottom">显示方式为：底部</option>
+            </select>
+        </div>
+        <div id="languages">
+            <select name="language" id="language" class="settings">
+                <option value="请选择日历语言">请选择日历显示语言</option>
+                <option value="zh" selected>Chinese</option>
+            </select>
+        </div>
+        <div id="demos">
+            <select name="demo" id="demo" class="settings">
+                <option value="date">日期</option>
+            </select>
+        </div>
+        <div data-role="fieldcontain" class="demo-cont" id="demo_cont_date" id="theme" id="mode">
+            <input type="text" id="demo_date"/>
+        </div>
+    </div>
+    <div class="t_s_one_footer" style="display: block">
+        <button>确认查找</button>
+    </div>
+    <div class="t_s_title" style="display: none">
+        <div><span>约车时间</span></div>
+        <div><span>教练</span></div>
+        <div><span>状态</span></div>
+        <div><span>操作</span></div>
+    </div>
+    <ul class="t_s_two" style="display: none">
+        <!--<div class="t_yuyueno"><span>您尚未预约</span></div>-->
+        <!--<li>
+            <div><span>2015-4-18</span><span>9:00-10:00</span></div>
+            <div><span>李大帅</span></div>
+            <div><span>已预约</span></div>
+            <div><button>取消预约</button></div>
+        </li>
+        <li>
+            <div><span>2015-4-18</span><span>9:00-10:00</span></div>
+            <div><span>李大帅</span></div>
+            <div><span>已预约</span></div>
+            <div><button>取消预约</button></div>
+        </li>
+        <li>
+            <div><span>2015-4-18</span><span>9:00-10:00</span></div>
+            <div><span>李大帅</span></div>
+            <div><span>已预约</span></div>
+            <div><button>取消预约</button></div>
+        </li>
+        <li>
+            <div><span>2015-4-18</span><span>9:00-10:00</span></div>
+            <div><span>李大帅</span></div>
+            <div><span>已预约</span></div>
+            <div><button>取消预约</button></div>
+        </li>
+        <li>
+            <div><span>2015-4-18</span><span>9:00-10:00</span></div>
+            <div><span>李大帅</span></div>
+            <div><span></span></div>
+            <div><span>已取消</span></div>
+        </li>-->
+    </ul>
+</section>
+
+
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+<script type="text/javascript" src="../../js/public/common.js"></script>
+<script type="text/javascript" src="../../js/mydiving/Training.js"></script>
+<script src="../../js/public/date/mobiscroll.core.js"></script>
+<script src="../../js/public/date/mobiscroll.frame.js"></script>
+<script src="../../js/public/date/mobiscroll.scroller.js"></script>
+<script src="../../js/public/date/mobiscroll.util.datetime.js"></script>
+<script src="../../js/public/date/mobiscroll.datetimebase.js"></script>
+<script src="../../js/public/date/mobiscroll.datetime.js"></script>
+<script src="../../js/public/date/mobiscroll.i18n.zh.js"></script>
+<script src="../../js/public/date/date.js"></script>
+<!--<script src="../../js/mydiving/date.js"></script>-->
+
+</body>
+</html>

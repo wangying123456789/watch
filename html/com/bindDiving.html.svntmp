@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="trimview" content="1.0.0">
+    <title>绑定驾校</title>
+    <link type="text/css" rel="stylesheet" href="../../res/css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="../../res/css/com/bindDiving.css"/>
+
+</head>
+<body>
+<!--头部-->
+<header>
+    <header>
+        <div class="h_left"><img src="../../res/img/back.png"/></div>
+        <div class="h_center">绑定驾校</div>
+        <div class="h_right"></div>
+    </header>
+</header>
+<!--内容部分-->
+<section class="main_login">
+    <!--<div class="a_top">
+        <span>学员姓名</span>
+        <span></span>
+        <span id="a_studyname">东岳驾校</span>
+    </div>-->
+    <ul class="a_mid">
+        <!--<li>
+            <div class="p_com" id="bd_stuid">
+                <span>学员编号</span><img src="../../res/img/com_go.png"/><span>请输入您的编号</span>
+            </div>
+        </li>-->
+        <li>
+            <div class="p_com" id="bd_idcard">
+                <span>身份证号</span><img src="../../res/img/com_go.png"/><span>请输入您的身份证号</span>
+            </div>
+        </li>
+        <li>
+            <div class="p_com borderbotno"  id="bd_divingname">
+                <span>驾校名称</span><img src="../../res/img/com_go.png"/><span>请选择您的驾校名称</span>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="a_bot" style="display: none">
+        <li>
+            <div>
+                <span></span>
+            </div>
+            <div>
+                <button id="a_applay_no">绑&nbsp;&nbsp;&nbsp;&nbsp;定</button>
+            </div>
+        </li>
+
+    </ul>
+</section>
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+<script type="text/javascript" src="../../js/public/common.js"></script>
+<script type="text/javascript" src="../../js/com/bindDiving.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="trimview" content="1.0.0">
+		<title>发表帖子</title>
+		<link type="text/css" rel="stylesheet" href="../../res/css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../../res/css/divingexpert/post.css"/>
+	</head>
+
+	<body>
+		<!--头部-->
+		<header>
+			<header>
+				<div class="h_left" id="backBtn"><img src="../../res/img/back.png" /></div>
+				<div class="h_center">发表帖子</div>
+				<div class="h_right"></div>
+			</header>
+		</header>
+		<!--内容部分-->
+		<section class="main_home">
+			<article class="post-fb">
+				<ul class="lst">
+					<li class="select-Theme">
+						<span>选择主题</span>
+						<span id="Themes"></span>
+                        <input type="hidden" id="Themes_id" value=""/>
+						<ul class="Theme-lst1" id="Theme-lst1">
+						</ul>
+					</li>
+					<li class="title-Article">
+						<span>文字标题</span>
+						<span><input type="text" id="Themes_title" value="" /></span>
+						<span></span>
+					</li>
+					<li class="post-textarea">
+						<textarea id="Themes_content"></textarea>
+					</li>
+					 <input class="Theme-input" type="button" value="提交"/>
+                    <div class="post_img"></div>
+				</ul>
+			</article>
+            <!--<img src="../../res/img/dome1.png"/>
+            <article>
+                <div class="p_pics">
+                    <ul>
+                        <li><div><img src="../../res/img/dome1.png"/></div></li>
+                        <li><div><img src="../../res/img/dome1.png"/></div></li>
+                        <li><div><img src="../../res/img/upload.png"/></div></li>
+                        <li><div><img src="../../res/img/upload.png"/></div></li>
+                        <li><div><img src="../../res/img/upload.png"/></div></li>
+                    </ul>
+                </div>
+            </article>
+            <div><input class="Theme-input" type="button" value="提交" onClick="postsave()"/></div>
+            -->
+		</section>
+		<script type="text/javascript" src="../../js/public/jquery.js"></script>
+		<script type="text/javascript" src="../../js/public/common.js"></script>
+		<script type="text/javascript" src="../../js/divingexpert/post.js" ></script>
+		<script type="text/javascript" src="../../js/public/cordova.js"></script>
+	</body>
+
+</html>
